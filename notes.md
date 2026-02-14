@@ -1,3 +1,8 @@
+General:
+    NodeJS does not support promises (async/await) by default. Unless modified, must use helper functions to test.
+
+    Using 'process.cwd()' as our targetPath returns exactly what directory the program was invoked from.
+
 Implementation Plan
     File Collection
 
